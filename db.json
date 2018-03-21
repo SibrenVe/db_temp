@@ -1,0 +1,179 @@
+{
+  "worknotes": [
+    {
+      "id": "1",
+      "employeeId": "1",
+      "clientId": "1",
+      "projectDate": "13/03/2018",
+      "projectName": "Testproject",
+      "projectCompanyName": "Webdoos",
+      "street": "Pathoekeweg 9",
+      "street2": "",
+      "zipCode": 8000,
+      "city": "Brugge",
+      "country": "BE",
+      "accessCode": "132456",
+      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "worknoteDescription": "Amai das nog ni simpel é  2\nJa makkelijk aan te passen wel é zeg azo",
+      "signature": "",
+      "signee": "",
+      "usedMaterials": [
+        {
+          "id": 3,
+          "name": "Material 3",
+          "amount": "1"
+        },
+        {
+          "id": 2,
+          "name": "Material 2",
+          "amount": "1"
+        },
+        {
+          "id": 4,
+          "name": "Schroeven",
+          "amount": 8
+        }
+      ],
+      "commonlyUsedMaterials": [
+        {
+          "id": 1,
+          "name": "Material 1",
+          "amount": 16
+        },
+        {
+          "id": 2,
+          "name": "Material 2",
+          "amount": "1"
+        },
+        {
+          "id": 3,
+          "name": "Material 3",
+          "amount": "1"
+        },
+        {
+          "id": 4,
+          "name": "Schroeven",
+          "amount": 8
+        }
+      ],
+      "taskLines": [
+        {
+          "id": 1,
+          "employeeId": 3,
+          "employeeName": "Stijn Blomme",
+          "dateExecuted": "12/03/2018",
+          "departureToCustomer": "12/03/2018 04:30:00",
+          "arrivalToCustomer": "12/03/2018 13:30:00",
+          "departureFromCustomer": "12/03/2018 23:00:00",
+          "arrivalFromCustomer": "12/03/2018 00:30:00",
+          "rest": ""
+        }
+      ],
+      "checkList": [
+        {
+          "id": 1,
+          "checked": true,
+          "name": "checklist item 1",
+          "remark": "test"
+        },
+        {
+          "id": 2,
+          "checked": true,
+          "name": "checklist item 2",
+          "remark": "goe\n"
+        },
+        {
+          "id": 3,
+          "checked": true,
+          "name": "checklist item 3",
+          "remark": "der was een kapot  23"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "employeeId": "1",
+      "clientId": "1",
+      "projectDate": "14/03/2018",
+      "projectName": "Testproject2",
+      "projectCompanyName": "Webdoos",
+      "street": "Pathoekeweg 9",
+      "street2": "",
+      "zipCode": 8000,
+      "city": "Brugge",
+      "country": "BE",
+      "accessCode": "",
+      "projectDescription": "",
+      "worknoteDescription": "",
+      "signature": "",
+      "signee": "",
+      "usedMaterials": [],
+      "commonlyUsedMaterials": [],
+      "taskLines": [
+        {
+          "id": 2,
+          "employeeId": 1,
+          "employeeName": "Olivier De Grande",
+          "dateExecuted": "12/03/2018",
+          "departureToCustomer": "12/03/2018 11:15",
+          "arrivalToCustomer": "12/03/2018 13:30",
+          "departureFromCustomer": "12/03/2018",
+          "arrivalFromCustomer": "12/03/2018 01:00",
+          "rest": "30"
+        },
+        {
+          "id": 3,
+          "employeeId": 2,
+          "employeeName": "Lucas Balleyn",
+          "dateExecuted": "11/03/2018",
+          "departureToCustomer": "",
+          "arrivalToCustomer": "12/03/2018 13:00:00",
+          "departureFromCustomer": "12/03/2018 14:00:00",
+          "arrivalFromCustomer": "",
+          "rest": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "employeeId": "1",
+      "clientId": "1",
+      "projectDate": "14/03/2018",
+      "projectName": "Testproject3",
+      "projectCompanyName": "Webdoos",
+      "street": "Pathoekeweg 9",
+      "street2": "",
+      "zipCode": 8000,
+      "city": "Brugge",
+      "country": "BE",
+      "accessCode": "",
+      "projectDescription": "",
+      "worknoteDescription": "Goeie koffie daar bij Webdoos",
+      "signature": "",
+      "signee": "",
+      "usedMaterials": [],
+      "commonlyUsedMaterials": [],
+      "taskLines": []
+    }
+  ],
+  "employees": [
+    {
+      "objectId": 1,
+      "emailAddress": "olivier@webdoos.be",
+      "firstName": "Olivier",
+      "lastName": "De Grande"
+    },
+    {
+      "objectId": 2,
+      "emailAddress": "lucas@webdoos.be",
+      "firstName": "Lucas",
+      "lastName": "Balleyn"
+    },
+    {
+      "objectId": 3,
+      "emailAddress": "stijnb@webdoos.be",
+      "firstName": "Stijn",
+      "lastName": "Blomme"
+    }
+  ]
+}
